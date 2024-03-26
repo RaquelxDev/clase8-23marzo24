@@ -72,7 +72,7 @@ static void MostrarMatriz(int[,] matriz)
         Console.WriteLine();
     }
 }
-//0,1 2,0 2,3
+//1,1 2,0 2,3
 static int ObtenerValorPosicion(int[,] matriz, int fila, int columna)
 {
     if (fila >= 0 && fila < 10 && columna >= 0 && columna < 10)
